@@ -1,0 +1,3 @@
+# Haskell Sort Function with Mixed Types
+
+This example demonstrates an error that can occur when using Haskell's `sort` function from `Data.List` with a list containing elements of different, incomparable types.  The `sort` function requires the elements to have an established ordering.  Mixing types like `Int` and `Char` leads to a compilation or runtime error because Haskell's type system cannot implicitly determine a comparison operation across these types. The solution shows how to properly sort if you want to sort by type or other criteria.
